@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
  
-import { Button } from "@/Components/ui/button"
+import { Button } from "../Components/ui/button"
 import {
   Card,
   CardContent,
@@ -11,8 +11,8 @@ import {
   CardHeader,
   CardTitle,
 } from "@/Components/ui/card"
-import { Input } from "@/Components/ui/input"
-import { Label } from "@/Components/ui/label"
+import { Input } from "../Components/ui/input"
+import { Label } from "../Components/ui/label"
 import { toast } from 'sonner';
 const CreatePoll = () => {
     const [question, setQuestion] = useState('');

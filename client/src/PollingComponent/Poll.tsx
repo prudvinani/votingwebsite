@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
-import { RadioGroup, RadioGroupItem } from "@/Components/ui/radio-group";
+import { RadioGroup, RadioGroupItem } from "../Components/ui/radio-group";
 import { FaArrowRight } from "react-icons/fa";
 import { IoShareSocial } from "react-icons/io5";
-import { Button } from "@/Components/ui/button";
+import { Button } from "../Components/ui/button";
 import {
   Card,
   CardContent,
@@ -12,8 +12,8 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/Components/ui/card";
-import { Label } from "@/Components/ui/label";
+} from "../Components/ui/card";
+import { Label } from "../Components/ui/label";
 import { toast } from "sonner";
 
 const Poll = () => {
